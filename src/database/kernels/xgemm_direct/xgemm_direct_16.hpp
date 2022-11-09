@@ -45,7 +45,8 @@ const DatabaseEntry XgemmDirectHalf = {
         { "default", {
           { Name{"Intel(R) HD Graphics 620                          "}, Params{ 2, 16, 16, 16, 16, 1, 1, 2, 2, 32, 0, 0, 0, 0, 0, 0 } },
           { Name{"Intel(R) HD Graphics Skylake ULT GT2              "}, Params{ 2, 8, 8, 8, 8, 1, 1, 1, 1, 8, 0, 0, 0, 0, 0, 0 } },
-          { kDeviceNameDefault                                        , Params{ 2, 8, 8, 8, 8, 1, 1, 1, 1, 8, 0, 0, 0, 0, 0, 0 } },
+          { Name{"Intel(R) UHD Graphics 750 [0x4c8a]                "}, Params{ 2, 8, 8, 8, 16, 0, 0, 2, 1, 64, 0, 0, 0, 0, 0, 0 } },
+          { kDeviceNameDefault                                        , Params{ 2, 16, 16, 16, 16, 1, 1, 1, 1, 16, 0, 0, 0, 0, 0, 0 } },
         } },
       }
     },
